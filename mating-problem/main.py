@@ -47,8 +47,6 @@ for i in range(N):
 	boys.append(random_preferences())
 	girls.append(random_preferences())
 
-print(boys)
-print(girls)
 matches = mating_algorithm(N, boys, girls)
 print(matches)
 
